@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="122" total="123" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-11T11:14:36 IST" name="Suite" finished-at="2022-02-11T11:15:16 IST" duration-ms="39936">
+    <groups>
+    </groups>
+    <test started-at="2022-02-11T11:14:36 IST" name="Test" finished-at="2022-02-11T11:15:16 IST" duration-ms="39936">
+      <class name="Geo_Portal.Geoportal">
+        <test-method is-config="true" signature="setDriver()[pri:0, instance:Geo_Portal.Geoportal@1151e434]" started-at="2022-02-11T11:14:36 IST" name="setDriver" finished-at="2022-02-11T11:14:36 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="openBrowser(org.testng.ITestContext)[pri:0, instance:Geo_Portal.Geoportal@1151e434]" started-at="2022-02-11T11:14:36 IST" name="openBrowser" finished-at="2022-02-11T11:15:04 IST" duration-ms="27748" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@764cba]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="NATMO_Geoportal_75()[pri:75, instance:Geo_Portal.Geoportal@1151e434]" started-at="2022-02-11T11:15:04 IST" name="NATMO_Geoportal_75" description="To verify that user is able to perform &#039;Area&#039; functionality using &#039;Sq.Foot/Sq.Mile&#039; unit option." finished-at="2022-02-11T11:15:15 IST" duration-ms="11141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NATMO_Geoportal_75 -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Geo_Portal.Geoportal@1151e434]" started-at="2022-02-11T11:15:15 IST" name="afterClass" finished-at="2022-02-11T11:15:16 IST" duration-ms="730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Geo_Portal.Geoportal -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

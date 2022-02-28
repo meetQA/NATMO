@@ -1,0 +1,52 @@
+package Home_Page_R;
+
+public class Homepage {
+	
+	public static final String URL = "https://geoportal.natmo.gov.in/";
+	public static final String Search = "//button[@id='search_filter']";
+    public static final String NATMOs_portal  ="//a[text()=\"NATMO's Portal\"]";
+    public static final String Covid_19 ="//a[text()=\"Covid-19 Dashboard\"]";
+    public static final String screen_reader ="//a[text()=\"Screen Reader Access\"]";
+    public static final String skip_main_content = "//a[text()=\"Skip to main content\"]";
+    public static final String skip_to_navigation = "//a[text()=\"Skip to Navigation\"]";
+    public static final String font_increase = "//a[@title=\"Increase font size\"]";
+    public static final String font_normal = "//a[@title=\"Reset font size\"]";
+    public static final String font_decrease = "//a[@title=\"Decrease font size\"]";
+    public static final String white ="//div[@class='color-box']/a[1]";
+    public static final String green ="//div[@class='color-box']/a[2]";
+    public static final String red = "//div[@class='color-box']/a[4]";
+    public static final String yellow = "//div[@class='color-box']/a[3]";
+    public static final String  btn_English= "//a[text()=\" EN\"]";
+    public static final String  btn_Hindi= "//a[text()=\" हिंदी\"]";
+    public static final String btn_skip_to_navigation_hindi = "//a[text()=\"नेविगेशन पर जाएं\"]";
+    public static final String btn_sign_in = "//a[text()=\" Sign  In\"]";
+    public static final String label_sign_in ="//h1[text()=\"Sign In\"]";
+    public static final String btn_register= "//a[text()=\" Register\"]";
+    public static final String label_register ="//h1[text()=\"Create new account\"]";
+    public static final String btn_geoportal= "//a[text()=\"Geoportal\"]";
+    public static final String txt_searchbox = "//input[@id='data-explorer-search-box']";
+    public static final String btn_search = "//button[@id='search_filter']";
+    public static final String btn_Contact_Us = "//a[text()=\"Contact Us\"]";
+    public static final String btn_Help = "//a[text()=\"Help\"]";
+    public static final String btn_FAQ = "//a[text()=\"FAQ\"]";
+    public static final String btn_Facebook = "//div[@id=\"share-buttons\"]/a[1]";
+    public static final String btn_Linkedin = "//div[@id=\"share-buttons\"]/a[2]";
+    public static final String btn_Twitter = "//div[@id=\"share-buttons\"]/a[3]";
+    public static final String btn_Mail = "//div[@id=\"share-buttons\"]/a[4]";
+    public static final String img_1 = "//img[@lsrc=\"https://geoportal.natmo.gov.in/sites/default/files/RAB%20Mod.jpg\"]";
+    public static final String img_2 = "//img[@lsrc=\"https://geoportal.natmo.gov.in/sites/default/files/Maps.jpg\"]";
+    public static final String btn_next = "//a[@class=\"bx-next\"]";
+    public static final String btn_previous = "//a[@class=\"bx-prev\"]";
+    public static final String btn_stop = "//a[@class=\"bx-start\"]";
+    public static final String label_latest_news = "//span[text()=\"Latest News\"]";
+    public static final String link_more_details = "//div[@class=\"newstape ticker\"]";
+    public static final String lnk_NATMO_Portal = "//a[text()=\"NATMO's Portal\"]";
+    public static final String lnk_Tourist_Map = "//span[text()=\"Tourist Map\"]";
+    public static final String lnk_Agricultural_Atlas = "//div[@class=\"owl-item active\"]/li/h3/a/span[text()=\"Agricultural Atlas\"]";
+    public static final String lnk_District_Planning_Map_Series = "//div[@class=\"owl-item active\"]/li/h3/a/span[text()=\"District Planning Map Series\"]";
+    public static final String lnk_Golden_Map_Services = "//div[@class=\"owl-item active\"]/li/h3/a/span[text()=\"Golden Map Services\"]";
+    public static final String lnk_National_Atlas = "//div[@class=\"owl-item active\"]/li/h3/a/span[text()=\"National Atlas\"]";
+    public static final String lnk_National_School_Atlas = "//div[@class=\"owl-item active\"]/li/h3/a/span[text()=\"National School Atlas\"]";
+    public static final String lnk_State_Atlas = "//div[@class=\"owl-item active\"]/li/h3/a/span[text()=\"State Atlas\"]";
+    public static final String btn_next1 = "//span[@aria-label=\"Next\"]";
+}

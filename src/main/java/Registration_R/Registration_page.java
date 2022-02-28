@@ -1,0 +1,57 @@
+package Registration_R;
+
+public class Registration_page {
+	public static final String label_salution = "//label[text()=\"Salutation \"]";
+	public static final String label_first_name = "//label[text()=\"First Name \"]";
+	public static final String label_last_name = "//label[text()=\"Last Name \"]";
+	public static final String label_gender = "//label[text()=\"Gender \"]";
+	public static final String label_educational_qua  = "//label[text()=\"Educational Qualification \"]";
+	public static final String label_Profession  = "//label[text()=\"Profession \"]";
+	public static final String label_other_profession = "//label[text()=\"Other Profession \"]";
+	public static final String label_Organization  = "//label[text()=\"Organization \"]";
+	public static final String label_other_Organization   ="//label[text()=\"Other Organization \"]";
+	public static final String label_Country ="//label[text()=\"Country \"]";
+	public static final String label_Mobile_No  = "//label[text()=\"Mobile No \"]";
+	public static final String label_username ="//label[text()=\"Username \"]";
+	public static final String label_Email_add ="//label[text()=\"E-mail address \"]";
+	public static final String label_password = "//label[text()=\"Password \"]";
+	public static final String label_confirm_pass = "//label[text()=\"Confirm password \"]";
+	public static final String label_about = "//label[text()=\"About \"]";
+	public static final String label_RWI  ="//label[text()=\"Residence within India? \"]";
+	public static final String label_subscribe = "//label[text()=\"Subscribe to our email ID notifications, SMS and Newsletters \"]";
+	public static final String label_captcha = "//label[text()=\"Math question \"]";
+	public static final String btn_create_new_account = "//input[@id=\"edit-submit\"]";
+    public static final String btn_forgot_username = "//a[text()=\" Forgot Username\"]";
+    public static final String btn_forgot_password = "//a[text()=\" Forgot Password\"]";
+	public static final String btn_sign_in = "//a[text()=\" Sign In\"]";
+	public static final String ddl_salution = "//select[@id=\"edit-field-salutation-title-und\"]";
+	public static final String txt_first_name = "//input[@id=\"edit-field-first-name-und-0-value\"]";
+	public static final String txt_last_name = "//input[@id=\"edit-field-last-name-und-0-value\"]";
+	public static final String ddl_gender = "//select[@id=\"edit-field-gender-und\"]";
+	public static final String ddl_educational_qua  = "//select[@id=\"edit-field-educational-qualification-und\"]";
+	public static final String ddl_Profession  = "//select[@id=\"edit-field-profession1-und\"]";
+	public static final String txt_other_profession = "//input[@id=\"edit-field-other-profession-und-0-value\"]";
+	public static final String ddl_Organization  = "//select[@id=\"edit-field-organization1-und\"]";
+	public static final String txt_other_Organization   ="//input[@id=\"edit-field-other-organization-und-0-value\"]";
+	public static final String txt_Mobile_No  = "//input[@id=\"edit-field-mobile-no-und-0-phonenumber\"]";
+	public static final String txt_username ="//input[@id=\"edit-name\"]";
+	public static final String txt_Email_add ="//input[@id=\"edit-mail\"]";
+	public static final String txt_password = "//input[@id=\"edit-pass-pass1\"]";
+	public static final String txt_confirm_pass = "//input[@id=\"edit-pass-pass2\"]";
+	public static final String txtarea_about = "//textarea[@id=\"edit-field-about-und-0-value\"]";
+	public static final String chk_RWI  ="//input[@id=\"edit-field-residence-within-india-und\"]";
+	public static final String chk_subscribe = "//input[@id=\"edit-field-subscribe-to-our-email-id-und\"]";
+	public static final String txt_captcha = "//input[@id=\"edit-captcha-response\"]";
+	public static final String label_validation_username = "//li[text()=\"Username field is required.\"]";
+	 public static final String label_validation_email = "//li[text()=\"E-mail address field is required.\"]";
+	 public static final String label_validation_password = "//li[text()=\"Password field is required.\"]";
+	 public static final String label_validation_firstname = "//li[text()=\"First Name field is required.\"]";
+	 public static final String label_validation_lastname = "//li[text()=\"Last Name field is required.\"]";
+	 public static final String label_validation_salutation = "//li[text()=\"Salutation field is required.\"]";
+	 public static final String label_validation_profession = "//li[text()=\"Profession field is required.\"]";
+	 public static final String label_validation_organization = "//li[text()=\"Organization field is required.\"]";
+	 public static final String label_validation_educational = "//li[text()=\"Educational Qualification field is required.\"]";
+	 public static final String label_validation_captcha = "//li[text()=\"Math question field is required.\"]";
+	 public static final String label_validation_mobile = "//li[text()=\"Mobile No field is required.\"]";
+
+}
